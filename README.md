@@ -38,7 +38,7 @@ One can also edit MixPoet/codes/**config.py**  to modify the configuration, such
 
 During the training process, some training information is outputed, such as:
 
-<div align=center><img width="80%" height="80%" src="pictures/p3.png"/></div>
+<div align=center><img width="81%" height="81%" src="pictures/p3.png"/></div>
 
 The training and validation information is saved in MixPoet/log/.  We also draw the average accumulative adversarial loss, discriminator loss and the distance of points sampled from the prior and the posterior cdistributions respectively, as well as the distance of points sampled from the prior distributions conditioned on different mixtures.
 
