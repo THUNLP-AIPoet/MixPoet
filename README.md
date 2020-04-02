@@ -40,9 +40,7 @@ During the training process, some training information is outputed, such as:
 
 <div align=center><img width="81%" height="81%" src="pictures/p3.png"/></div>
 
-The training and validation information is saved in MixPoet/log/.  We also draw the average accumulative adversarial loss, discriminator loss and the distance of points sampled from the prior and the posterior cdistributions respectively, as well as the distance of points sampled from the prior distributions conditioned on different mixtures.
-
-<div align=center><img width="82%" height="82%" src="pictures/p4.png"/></div>
+The training and validation information is saved in MixPoet/log/.
 
 ## 6. Generation
 To generate a poem in an interactive interface, in MixPoet/codes/, run:
