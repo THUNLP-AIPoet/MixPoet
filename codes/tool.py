@@ -81,7 +81,7 @@ class Tool(object):
             if w in self.__vocab:
                 idxes.append(self.__vocab[w])
             else:
-                idxes.append(self.__ivocab[self.__UNK_ID])
+                idxes.append(self.__UNK_ID)
         return idxes
 
 
