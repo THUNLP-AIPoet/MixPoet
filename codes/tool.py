@@ -171,8 +171,8 @@ class Tool(object):
         print (len(valid_data))
 
         # data limit for debug
-        self.train_batches = self.__build_data_core(train_data, batch_size, mode, 2500)
-        self.valid_batches = self.__build_data_core(valid_data, batch_size, mode, 500)
+        self.train_batches = self.__build_data_core(train_data, batch_size, mode)
+        self.valid_batches = self.__build_data_core(valid_data, batch_size, mode)
 
         self.train_batch_num = len(self.train_batches)
         self.valid_batch_num = len(self.valid_batches)
