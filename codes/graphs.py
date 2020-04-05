@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Author: Xiaoyuan Yi
 # @Last Modified by:   Xiaoyuan Yi
-# @Last Modified time: 2020-03-31 22:10:19
+# @Last Modified time: 2020-04-05 09:33:36
 # @Email: yi-xy16@mails.tsinghua.edu.cn
 # @Description:
 '''
@@ -433,3 +433,13 @@ class MixPoetAUS(nn.Module):
             torch.cat([z_prior, key_state, factor_emb1, factor_emb2], dim=-1)) # (B, H-2)
 
         return dec_init_state
+
+
+    def compute_prior(self, keys, labels1, labels2):
+        _, key_state0 = self.computer_enc(keys, self.layers['word_encoder'])
+        key_state = torch.cat([key_state0[0, :, :], key_state0[1, :, :]], dim=-1) # [B, 2*H]
+
+
+        z_prior = self.layers['prior'](key_state, labels1, labels2)
+
+        return z_prior
