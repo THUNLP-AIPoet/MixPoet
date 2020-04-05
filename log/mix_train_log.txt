@@ -1,0 +1,40 @@
+epoch: 1, 1/200 0.5%, 0.064 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:7006.7, rec loss: 8.855, entropy loss: -0.712, cl loss w: 1.825, cl loss xw: 1.779
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 21/200 10.5%, 1.354 s per iter, lr: 0.0000, tr: 1.00, tau: 0.984, noise: 1.000
+  ppl:6991.5, rec loss: 8.852, entropy loss: -0.712, cl loss w: 1.799, cl loss xw: 1.661
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 41/200 20.5%, 1.339 s per iter, lr: 0.0000, tr: 1.00, tau: 0.969, noise: 1.000
+  ppl:6978.1, rec loss: 8.851, entropy loss: -0.712, cl loss w: 1.796, cl loss xw: 1.648
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 1/200 0.5%, 0.064 s per iter, lr: 0.0000, tr: 1.00, tau: 0.999, noise: 1.000
+  ppl:7017.0, rec loss: 8.856, entropy loss: -0.711, cl loss w: 1.776, cl loss xw: 1.821
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 21/200 10.5%, 1.386 s per iter, lr: 0.0000, tr: 1.00, tau: 0.984, noise: 1.000
+  ppl:7011.0, rec loss: 8.855, entropy loss: -0.711, cl loss w: 1.788, cl loss xw: 1.648
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 41/200 20.5%, 1.490 s per iter, lr: 0.0000, tr: 1.00, tau: 0.969, noise: 1.000
+  ppl:7002.7, rec loss: 8.854, entropy loss: -0.711, cl loss w: 1.785, cl loss xw: 1.634
+  dis loss: 0.000, adv loss: 0.000, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 61/200 30.5%, 1.592 s per iter, lr: 0.0000, tr: 1.00, tau: 0.954, noise: 0.300
+  ppl:6984.4, rec loss: 8.851, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.649
+  dis loss: 0.681, adv loss: 0.707, latent dist: 0.000, factors dist: 0.000
+
+epoch: 1, 81/200 40.5%, 1.983 s per iter, lr: 0.0000, tr: 1.00, tau: 0.940, noise: 0.299
+  ppl:6955.7, rec loss: 8.847, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.653
+  dis loss: 0.673, adv loss: 0.713, latent dist: 3.428, factors dist: 22.797
+
+epoch: 1, 101/200 50.5%, 2.100 s per iter, lr: 0.0000, tr: 1.00, tau: 0.925, noise: 0.298
+  ppl:6908.8, rec loss: 8.841, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.667
+  dis loss: 0.655, adv loss: 0.737, latent dist: 3.428, factors dist: 22.797
+
+epoch: 1, 121/200 60.5%, 1.984 s per iter, lr: 0.0000, tr: 1.00, tau: 0.911, noise: 0.297
+  ppl:6799.5, rec loss: 8.825, entropy loss: -0.711, cl loss w: 1.789, cl loss xw: 1.668
+  dis loss: 0.625, adv loss: 0.774, latent dist: 5.069, factors dist: 22.795
+
