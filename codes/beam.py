@@ -193,7 +193,7 @@ class PoetryBeam(object):
 
         # idx of the smallest B elements
         best_indices = np.argpartition(
-            flat_costs, B)[0:B]
+            flat_costs, B)[0:B].copy()
 
         scores = flat_costs[best_indices]
 
